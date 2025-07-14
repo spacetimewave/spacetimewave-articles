@@ -17,7 +17,7 @@ npm install -g pnpm
 4. Create docusaurus project
 
 ```bash
-npx create-docusaurus@latest spacetimewave-articles classic --typescript
+npx create-docusaurus@latest spacetimewave-articles classic --typescript        # pnpm create docusaurus
 ```
 
 5. Add developer dependencies
@@ -32,7 +32,14 @@ pnpm add --save-dev typescript @docusaurus/module-type-aliases @docusaurus/tscon
 pnpm run start
 ```
 
+
 6. Open http://localhost:3000/
+
+7. Build docusaurus
+
+```bash
+pnpm run build
+```
 
 ## Local Development
 
