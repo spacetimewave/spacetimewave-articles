@@ -5,9 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "javierhersan",
-  tagline: "Spacetimewaves...",
-  favicon: "img/favicon.ico",
+  title: "Spacetimewave",
+  tagline: "Spacetime waves...",
+  favicon: "img/icon-expanded.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "spacetimewave", // Usually your GitHub org/user name.
-  projectName: "javierhersan", // Usually your repo name.
+  projectName: "articles", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -71,23 +71,23 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/logo.png",
     navbar: {
-      title: "My Site",
+      title: "Spacetimewave",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Spacetimewave Logo",
+        src: "img/icon-expanded.png",
       },
       items: [
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Articles",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/spacetimewave",
           label: "GitHub",
           position: "right",
         },
@@ -136,7 +136,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Spacetimewave, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
